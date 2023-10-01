@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="lowPriorityColor">#c1e4a4</color>
+    <color name="mediumPriorityColor">#a1d9e3</color>
+    <color name="highPriorityColor">#bf3943</color>
+    <color name="default_priority_color">#FFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple">#c7c2c1</color>
+    <color name="orange">#d5c474</color>
+    <color name="dark_purple">#a19a99</color>
+    <color name="light_purple">#eceaea</color>
+    <color name="d_purple">#f95a61</color>
+
+
+</resources>

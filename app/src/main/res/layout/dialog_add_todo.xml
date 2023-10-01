@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/light_purple"
+    android:padding="12dp">
+
+    <EditText
+        android:id="@+id/et_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:ems="10"
+        android:hint="To Do"
+        android:inputType="text"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@+id/radioMedium"
+        tools:layout_editor_absoluteX="12dp" />
+
+    <RadioButton
+        android:id="@+id/radioLow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:text="Low"
+        android:textColor="#1F7723"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/radioMedium"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_desc" />
+
+    <Button
+        android:id="@+id/btn_add_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="@color/purple"
+        android:text="Add Note"
+        android:textColor="@color/d_purple"
+        android:textSize="25dp"
+        app:layout_constraintTop_toBottomOf="@+id/radioMedium"
+        tools:layout_editor_absoluteX="12dp" />
+
+    <RadioButton
+        android:id="@+id/radioMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Medium"
+        android:textColor="#247381"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/radioHigh"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/radioLow"
+        app:layout_constraintTop_toBottomOf="@+id/et_desc" />
+
+    <RadioButton
+        android:id="@+id/radioHigh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="High"
+        android:textColor="#85242C"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/radioMedium"
+        app:layout_constraintTop_toBottomOf="@+id/et_desc" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
