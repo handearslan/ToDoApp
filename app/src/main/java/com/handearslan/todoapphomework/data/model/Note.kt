@@ -1,7 +1,7 @@
 package com.handearslan.todoapphomework.data.model
 
-data class ToDo(
-    val id: Int,
+data class Note(
     val title: String,
-    val priority: String
+    val priority: String,
+    val id :Int = 0
 )
